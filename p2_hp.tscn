@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/img/Hearts.png" type="Texture" id=1]
+
+[node name="p2_hp" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 557.49, -3.0381 )
+texture = ExtResource( 1 )
+hframes = 3
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 290.391, 0.936745 )
+texture = ExtResource( 1 )
+hframes = 3
+
+[node name="Sprite3" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+hframes = 3

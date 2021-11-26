@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://OptionsMenu.cs" type="Script" id=1]
+[ext_resource path="res://assets/img/Options.png" type="Texture" id=2]
+[ext_resource path="res://assets/img/select cursor.png" type="Texture" id=3]
+[ext_resource path="res://assets/img/triangle.png" type="Texture" id=4]
+
+[node name="OptionsMenu" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Options" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="cursorV" type="Sprite" parent="."]
+position = Vector2( -1118.28, -344.813 )
+scale = Vector2( 0.324957, 0.418323 )
+texture = ExtResource( 3 )
+
+[node name="cursorH1" type="Sprite" parent="."]
+position = Vector2( 1207.52, -405.663 )
+scale = Vector2( 0.0647217, 0.0534533 )
+texture = ExtResource( 4 )
+
+[node name="cursorH2" type="Sprite" parent="."]
+position = Vector2( 1229.16, -246.102 )
+scale = Vector2( 0.0647217, 0.0534533 )
+texture = ExtResource( 4 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 1.8, 1.7 )
+
+[node name="PositionP1" type="Position2D" parent="."]
+position = Vector2( -797.804, -365.097 )
+
+[node name="PositionP2" type="Position2D" parent="."]
+position = Vector2( -795.099, -143.334 )
+
+[node name="PositionReturn" type="Position2D" parent="."]
+position = Vector2( -808.621, 18.931 )
+
+[node name="PositionP1ON" type="Position2D" parent="."]
+position = Vector2( 543.588, -462.456 )
+
+[node name="PositionP1OFF" type="Position2D" parent="."]
+position = Vector2( 735.602, -459.751 )
+
+[node name="PositionP2ON" type="Position2D" parent="."]
+position = Vector2( 546.293, -227.171 )
+
+[node name="PositionP2OFF" type="Position2D" parent="."]
+position = Vector2( 746.42, -229.876 )
