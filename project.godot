@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="c03a_platformer_base"
+config/name="Megaman Fighter"
 run/main_scene="res://world.tscn"
 config/icon="res://assets/img/icon.png"
 
